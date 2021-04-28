@@ -19,7 +19,7 @@ const Profile = ({ navigation }) => {
 
     return (
         <ScrollView>
-            <CenterIcon icon={Config.appIcon} text={Config.AppName} />
+            <CenterIcon icon={Config.appIcon} text={Config.appName} />
             <View style={{marginBottom:20}}>
                 <Paper title="Account Info">
                     <Text>

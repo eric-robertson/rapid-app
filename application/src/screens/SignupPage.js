@@ -19,7 +19,7 @@ export default function Routes() {
     if ( loading ) return <LoadingPage/>
 
     return  <ScrollView>
-        <CenterIcon icon={Config.appIcon} text={Config.AppName} />
+        <CenterIcon icon={Config.appIcon} text={Config.appName} />
         <Input text={Config.signupPrompt} setName={setData} />
         <Button title="Create Account" onPress={showCreate && createAccount}  /> 
     </ScrollView>
